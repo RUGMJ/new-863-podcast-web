@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+
+@for $i from 1 through 100 {
+    :nth-child(#{$i}) {
+        --nth-child: #{$i};
+    }
+
+}
+
+* {
+    cursor: default;
+}
+
+body {
+    background-color: #373c46;
+    color: white;
+    font-family: 'Fira Code', monospace;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    flex-wrap: wrap;
+}
+
+.recording {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: #373c46;
+    padding: 5%;
+    border-radius: 80px;
+    margin: 2%;
+    margin-bottom: 5%;
+    transition: all 0.25s;
+    box-shadow: 11px 11px 22px #24282e,
+        -11px -11px 22px #4a505e;
+    animation-name: slideIn;
+    animation-duration: calc(var(--nth-child) * 0.25s);
+    margin: auto;
+    text-align: center;
+
+}
+
+.recording:hover,
+.recording:active {
+    padding: 5.5%;
+    border-radius: 100px;
+    box-shadow: 32px 32px 64px #24282e,
+        -32px -32px 64px #4a505e;
+}
+
+a {
+    color: green;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-size: calc(10px + 5vmin);
+    box-shadow: 32px 32px 64px #24282e,
+        -32px -32px 64px #4a505e;
+    border-radius: 50px;
+    padding: 2.5%;
+    width: fit-content;
+    margin: auto;
+}
+
+
+.selfpromo {
+    font-size: x-small;
+    color: green;
+    position: sticky;
+    top: 20px;
+    box-shadow: 32px 32px 64px #24282e,
+        -32px -32px 64px #4a505e;
+    padding: 1%;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.invite {
+    font-size: x-small;
+    color: green;
+    position: sticky;
+    top: 20px;
+    box-shadow: 32px 32px 64px #24282e,
+        -32px -32px 64px #4a505e;
+    padding: 1%;
+    display: inline;
+    left: 100%;
+    border-radius: 50px;
+}
+
+.speakers {
+    display: inline-flex;
+    padding: 0;
+    width: max-content;
+}
+
+.speaker {
+    padding: 0;
+    margin: 1%;
+}
+
+.speaker>img:hover,
+.speaker>img:active {
+    +span {
+        display: inline;
+        position: absolute;
+
+    }
+}
+
+.speaker>img {
+    border-radius: 100px;
+    height: 75px;
+}
+
+.speaker>span {
+    display: none;
+    font-size: xx-small;
+    background: #24282e;
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.timestamp {
+    color: green;
+    font-size: x-small;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-100vh) translateX(-100vw);
+        background: #6e788b;
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0) translateX(0);
+        opacity: 100;
+        background: #373c46;
+    }
+}
+
+.tags {
+    display: inline-flex;
+    padding: 0;
+    width: max-content;
+}
+
+.tag {
+    padding: 0;
+    margin: 1%;
+}
+
+.tag>img:hover,
+.tag>img:active,
+.tag>span:hover,
+.tag>span:active {
+    +span {
+        display: inline;
+        position: absolute;
+
+    }
+}
+
+.tag>img {
+    height: 32px;
+}
+
+.tag>span {
+    display: none;
+    font-size: xx-small;
+    background: #24282e;
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.info {
+    fill: green;
+}
+
+.warning {
+    fill: yellow;
+}

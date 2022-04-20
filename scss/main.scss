@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+:root {
+    --text-color: green;
+    --background-color: black;
+    --secondary-background-color: rgb(20, 20, 20);
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+    background: var(--background-color);
+    color: ccc;
+    font-size: -1vw;
+    line-height: 1.6;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: var(--text-color);
+    font-size: 4vw;
+    // letter-spacing: -5px;
+    margin-bottom: 1%;
+}
+
+h2 {
+    color: var(--text-color);
+    font-size: 3vw;
+}
+
+h3 {
+    color: var(--text-color);
+    font-size: 2vw;
+    margin-bottom: 1%;
+}
+
+span {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: var(--text-color);
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.cursor {
+    font-weight: 700;
+    animation: 1s blink step-end infinite;
+}
+
+.wb-body {
+    background: var(--secondary-background-color);
+}
+
+.winbox {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+}
+
+.recording {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    animation-name: slideIn;
+    animation-duration: calc(var(--nth-child) * 0.25s);
+    margin: auto;
+    text-align: center;
+    color: var(--text-color);
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: var(--text-color);
+    }
+}
+
+.speakers {
+    display: inline-flex;
+    padding: 0;
+    width: max-content;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.speaker {
+    padding: 0;
+    margin: 1%;
+}
+
+.speaker>img:hover,
+.speaker>img:active {
+    +span {
+        display: inline;
+        position: absolute;
+
+    }
+}
+
+.speaker>img {
+    border-radius: 100px;
+    height: 75px;
+}
+
+.speaker>span {
+    display: none;
+    font-size: xx-small;
+    background: #24282e;
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.timestamp {
+    color: var(--text-color);
+    font-size: x-small;
+}
+
+.tags {
+    display: inline-flex;
+    padding: 0;
+    width: max-content;
+}
+
+.tag {
+    padding: 0;
+    margin: 1%;
+}
+
+.tag>img:hover,
+.tag>img:active,
+.tag>span:hover,
+.tag>span:active {
+    +span {
+        display: inline;
+        position: absolute;
+
+    }
+}
+
+.tag>img {
+    height: 32px;
+}
+
+.tag>span {
+    display: none;
+    font-size: xx-small;
+    background: #24282e;
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#settingsButton {
+    color: var(--text-color);
+    position: absolute;
+    bottom: 0;
+
+    &:hover,
+    &:active {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+#settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+
+    #theme {
+        text-align: center;
+        background: var(--text-color);
+        border: none;
+        border-radius: 10px;
+        font-size: large;
+    }
+}
+
+#linksButton {
+    color: var(--text-color);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    &:hover,
+    &:active {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+#mobileWarning {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 760px) {
+    body>* {
+        display: none;
+    }
+
+    .container {
+        display: none;
+    }
+
+    #mobileWarning {
+        display: flex;
+    }
+}

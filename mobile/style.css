@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+:nth-child(1) {
+  --nth-child: 1; }
+
+:nth-child(2) {
+  --nth-child: 2; }
+
+:nth-child(3) {
+  --nth-child: 3; }
+
+:nth-child(4) {
+  --nth-child: 4; }
+
+:nth-child(5) {
+  --nth-child: 5; }
+
+:nth-child(6) {
+  --nth-child: 6; }
+
+:nth-child(7) {
+  --nth-child: 7; }
+
+:nth-child(8) {
+  --nth-child: 8; }
+
+:nth-child(9) {
+  --nth-child: 9; }
+
+:nth-child(10) {
+  --nth-child: 10; }
+
+:nth-child(11) {
+  --nth-child: 11; }
+
+:nth-child(12) {
+  --nth-child: 12; }
+
+:nth-child(13) {
+  --nth-child: 13; }
+
+:nth-child(14) {
+  --nth-child: 14; }
+
+:nth-child(15) {
+  --nth-child: 15; }
+
+:nth-child(16) {
+  --nth-child: 16; }
+
+:nth-child(17) {
+  --nth-child: 17; }
+
+:nth-child(18) {
+  --nth-child: 18; }
+
+:nth-child(19) {
+  --nth-child: 19; }
+
+:nth-child(20) {
+  --nth-child: 20; }
+
+:nth-child(21) {
+  --nth-child: 21; }
+
+:nth-child(22) {
+  --nth-child: 22; }
+
+:nth-child(23) {
+  --nth-child: 23; }
+
+:nth-child(24) {
+  --nth-child: 24; }
+
+:nth-child(25) {
+  --nth-child: 25; }
+
+:nth-child(26) {
+  --nth-child: 26; }
+
+:nth-child(27) {
+  --nth-child: 27; }
+
+:nth-child(28) {
+  --nth-child: 28; }
+
+:nth-child(29) {
+  --nth-child: 29; }
+
+:nth-child(30) {
+  --nth-child: 30; }
+
+:nth-child(31) {
+  --nth-child: 31; }
+
+:nth-child(32) {
+  --nth-child: 32; }
+
+:nth-child(33) {
+  --nth-child: 33; }
+
+:nth-child(34) {
+  --nth-child: 34; }
+
+:nth-child(35) {
+  --nth-child: 35; }
+
+:nth-child(36) {
+  --nth-child: 36; }
+
+:nth-child(37) {
+  --nth-child: 37; }
+
+:nth-child(38) {
+  --nth-child: 38; }
+
+:nth-child(39) {
+  --nth-child: 39; }
+
+:nth-child(40) {
+  --nth-child: 40; }
+
+:nth-child(41) {
+  --nth-child: 41; }
+
+:nth-child(42) {
+  --nth-child: 42; }
+
+:nth-child(43) {
+  --nth-child: 43; }
+
+:nth-child(44) {
+  --nth-child: 44; }
+
+:nth-child(45) {
+  --nth-child: 45; }
+
+:nth-child(46) {
+  --nth-child: 46; }
+
+:nth-child(47) {
+  --nth-child: 47; }
+
+:nth-child(48) {
+  --nth-child: 48; }
+
+:nth-child(49) {
+  --nth-child: 49; }
+
+:nth-child(50) {
+  --nth-child: 50; }
+
+:nth-child(51) {
+  --nth-child: 51; }
+
+:nth-child(52) {
+  --nth-child: 52; }
+
+:nth-child(53) {
+  --nth-child: 53; }
+
+:nth-child(54) {
+  --nth-child: 54; }
+
+:nth-child(55) {
+  --nth-child: 55; }
+
+:nth-child(56) {
+  --nth-child: 56; }
+
+:nth-child(57) {
+  --nth-child: 57; }
+
+:nth-child(58) {
+  --nth-child: 58; }
+
+:nth-child(59) {
+  --nth-child: 59; }
+
+:nth-child(60) {
+  --nth-child: 60; }
+
+:nth-child(61) {
+  --nth-child: 61; }
+
+:nth-child(62) {
+  --nth-child: 62; }
+
+:nth-child(63) {
+  --nth-child: 63; }
+
+:nth-child(64) {
+  --nth-child: 64; }
+
+:nth-child(65) {
+  --nth-child: 65; }
+
+:nth-child(66) {
+  --nth-child: 66; }
+
+:nth-child(67) {
+  --nth-child: 67; }
+
+:nth-child(68) {
+  --nth-child: 68; }
+
+:nth-child(69) {
+  --nth-child: 69; }
+
+:nth-child(70) {
+  --nth-child: 70; }
+
+:nth-child(71) {
+  --nth-child: 71; }
+
+:nth-child(72) {
+  --nth-child: 72; }
+
+:nth-child(73) {
+  --nth-child: 73; }
+
+:nth-child(74) {
+  --nth-child: 74; }
+
+:nth-child(75) {
+  --nth-child: 75; }
+
+:nth-child(76) {
+  --nth-child: 76; }
+
+:nth-child(77) {
+  --nth-child: 77; }
+
+:nth-child(78) {
+  --nth-child: 78; }
+
+:nth-child(79) {
+  --nth-child: 79; }
+
+:nth-child(80) {
+  --nth-child: 80; }
+
+:nth-child(81) {
+  --nth-child: 81; }
+
+:nth-child(82) {
+  --nth-child: 82; }
+
+:nth-child(83) {
+  --nth-child: 83; }
+
+:nth-child(84) {
+  --nth-child: 84; }
+
+:nth-child(85) {
+  --nth-child: 85; }
+
+:nth-child(86) {
+  --nth-child: 86; }
+
+:nth-child(87) {
+  --nth-child: 87; }
+
+:nth-child(88) {
+  --nth-child: 88; }
+
+:nth-child(89) {
+  --nth-child: 89; }
+
+:nth-child(90) {
+  --nth-child: 90; }
+
+:nth-child(91) {
+  --nth-child: 91; }
+
+:nth-child(92) {
+  --nth-child: 92; }
+
+:nth-child(93) {
+  --nth-child: 93; }
+
+:nth-child(94) {
+  --nth-child: 94; }
+
+:nth-child(95) {
+  --nth-child: 95; }
+
+:nth-child(96) {
+  --nth-child: 96; }
+
+:nth-child(97) {
+  --nth-child: 97; }
+
+:nth-child(98) {
+  --nth-child: 98; }
+
+:nth-child(99) {
+  --nth-child: 99; }
+
+:nth-child(100) {
+  --nth-child: 100; }
+
+* {
+  cursor: default; }
+
+body {
+  background-color: #373c46;
+  color: white;
+  font-family: 'Fira Code', monospace; }
+
+main {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap; }
+
+.recording {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background: #373c46;
+  padding: 5%;
+  border-radius: 80px;
+  margin: 2%;
+  margin-bottom: 5%;
+  transition: all 0.25s;
+  box-shadow: 11px 11px 22px #24282e, -11px -11px 22px #4a505e;
+  animation-name: slideIn;
+  animation-duration: calc(var(--nth-child) * 0.25s);
+  margin: auto;
+  text-align: center; }
+
+.recording:hover,
+.recording:active {
+  padding: 5.5%;
+  border-radius: 100px;
+  box-shadow: 32px 32px 64px #24282e, -32px -32px 64px #4a505e; }
+
+a {
+  color: green;
+  cursor: pointer; }
+
+h1 {
+  text-align: center;
+  font-size: calc(10px + 5vmin);
+  box-shadow: 32px 32px 64px #24282e, -32px -32px 64px #4a505e;
+  border-radius: 50px;
+  padding: 2.5%;
+  width: fit-content;
+  margin: auto; }
+
+.selfpromo {
+  font-size: x-small;
+  color: green;
+  position: sticky;
+  top: 20px;
+  box-shadow: 32px 32px 64px #24282e, -32px -32px 64px #4a505e;
+  padding: 1%;
+  display: inline-block;
+  border-radius: 50px; }
+
+.invite {
+  font-size: x-small;
+  color: green;
+  position: sticky;
+  top: 20px;
+  box-shadow: 32px 32px 64px #24282e, -32px -32px 64px #4a505e;
+  padding: 1%;
+  display: inline;
+  left: 100%;
+  border-radius: 50px; }
+
+.speakers {
+  display: inline-flex;
+  padding: 0;
+  width: max-content; }
+
+.speaker {
+  padding: 0;
+  margin: 1%; }
+
+.speaker > img:hover + span,
+.speaker > img:active + span {
+  display: inline;
+  position: absolute; }
+
+.speaker > img {
+  border-radius: 100px;
+  height: 75px; }
+
+.speaker > span {
+  display: none;
+  font-size: xx-small;
+  background: #24282e;
+  color: white;
+  padding: 1%;
+  border-radius: 10px; }
+
+.timestamp {
+  color: green;
+  font-size: x-small; }
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100vh) translateX(-100vw);
+    background: #6e788b;
+    opacity: 0; }
+  to {
+    transform: translateY(0) translateX(0);
+    opacity: 100;
+    background: #373c46; } }
+
+.tags {
+  display: inline-flex;
+  padding: 0;
+  width: max-content; }
+
+.tag {
+  padding: 0;
+  margin: 1%; }
+
+.tag > img:hover + span,
+.tag > img:active + span,
+.tag > span:hover + span,
+.tag > span:active + span {
+  display: inline;
+  position: absolute; }
+
+.tag > img {
+  height: 32px; }
+
+.tag > span {
+  display: none;
+  font-size: xx-small;
+  background: #24282e;
+  color: white;
+  padding: 1%;
+  border-radius: 10px; }
+
+.info {
+  fill: green; }
+
+.warning {
+  fill: yellow; }

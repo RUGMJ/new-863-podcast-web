@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="dist/winbox.bundle.js" defer></script>
+		<script src="script.js" defer></script>
+		<link rel="stylesheet" href="css/main.css" />
+		<title>Terminal</title>
+	</head>
+	<body>
+		<div id="mobileWarning">
+			<h1>
+				This site does not work on mobile,
+				<a href="./mobile/" style="text-decoration: underline"
+					>go to the mobile version instead</a
+				>
+			</h1>
+		</div>
+		<div class="container">
+			<main>
+				<h1>
+					ROOT@RUGMJ.DEV:$ 863 PODCAST ARCHIVE<span class="cursor">|</span>
+				</h1>
+				<h3>ROOT@RUGMJ.DEV/RECORDINGS:$<span class="cursor">|</span></h3>
+				<ul id="recording-list"></ul>
+			</main>
+		</div>
+		<span id="settingsButton">Settings</span>
+		<span id="linksButton">Links</span>
+		<div class="hidden">
+			<div id="settings">
+				<h1>ROOT@RUGMJ.DEV:$ SETTINGS<span class="cursor">|</span></h1>
+				<label for="theme"><span>THEME</span></label>
+				<select name="theme" id="theme">
+					<option value="red">Red</option>
+					<option value="green">Green</option>
+					<option value="blue">Blue</option>
+					<option value="purple">Purple</option>
+					<option value="cyan">Cyan</option>
+					<option value="orange">Orange</option>
+				</select>
+			</div>
+			<div id="links">
+				<h1>ROOT@RUGMJ.DEV:$ LINKS<span class="cursor">|</span></h1>
+				<span>SITE MADE BY RUGMJ#2832</span>
+				<span>
+					<a href="https://discord.gg/22thuQ2JHB" target="_blank"
+						>JOIN THE DISCORD</a
+					></span
+				>
+				<span
+					>Our friend's podcast:
+					<a
+						href="https://youtube.com/channel/UCWW2ijAoeW1MbxCnRJVvr3g"
+						target="_blank"
+						>youtube.com/channel/UCWW2ijAoeW1MbxCnRJVvr3g</a
+					>
+				</span>
+			</div>
+		</div>
+	</body>
+</html>

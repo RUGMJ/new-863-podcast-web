@@ -1,0 +1,60 @@
+[
+	{
+		"title": "Introduction To Season 4",
+		"audio": {
+			"path": "863-podcast-April6th.mp3",
+			"audioType": "audio/mpeg"
+		},
+		"speakers": [
+			{
+				"name": "Murra_T#9679",
+				"avatar": "Murra_T_9679.png"
+			},
+			{
+				"name": "legit.cs#2833",
+				"avatar": "Legitcs_2833.png"
+			},
+			{
+				"name": "Hyᗺrid#0215",
+				"avatar": "1-Hybrid_0215.png"
+			}
+		],
+		"timestamp": "6/4/2022"
+	},
+	{
+		"title": "D3B, Mountaineer and Elmo Gifs w/ funnies",
+		"audio": {
+			"path": "280520477.mp3",
+			"audioType": "audio/mpeg"
+		},
+		"tags": [
+			{
+				"content": "There are cuts in the recording due to technical difficulties",
+				"type": "warning"
+			}
+		],
+		"speakers": [
+			{
+				"name": "Murra_T#9679",
+				"avatar": "Murra_T_9679.png"
+			},
+			{
+				"name": "Imperfect_Pixie#3098",
+				"avatar": "1-Imperfect_Pixie_3098.png"
+			},
+			{
+				"name": "Hyᗺrid#0215",
+				"avatar": "1-Hybrid_0215.png"
+			},
+			{
+				"name": "RUGMJ#2832",
+				"avatar": "4-RUGMJ_2832.png"
+			},
+			{
+				"name": "SouthernGamer2001#3897",
+				"avatar": "3-SouthernGamer2001_3897.png"
+			}
+		],
+		"timestamp": "13/4/2022"
+	}
+]
