@@ -56,5 +56,33 @@
 			}
 		],
 		"timestamp": "13/4/2022"
+	},
+	{
+		"title": "Deb's Letters",
+		"audio": {
+			"path": "552637610.mp3",
+			"audioType": "audio/mpeg"
+		},
+		"tags": [
+			{
+				"content": "There are cuts in the recording due to technical difficulties",
+				"type": "warning"
+			}
+		],
+		"speakers": [
+			{
+				"name": "Murra_T#9679",
+				"avatar": "Murra_T_9679.png"
+			},
+			{
+				"name": "Hyᗺrid#0215",
+				"avatar": "1-Hybrid_0215.png"
+			},
+			{
+				"name": "Sheradynk#4878",
+				"avatar": "2-Sheradynk_4878.png"
+			}
+		],
+		"timestamp": "26/4/2022"
 	}
 ]
