@@ -84,5 +84,23 @@
 			}
 		],
 		"timestamp": "26/4/2022"
+	},
+	{
+		"title": "Murra's Solocast",
+		"audio": {
+			"path": "787013674.mp3",
+			"audioType": "audio/mpeg"
+		},
+		"speakers": [
+			{
+				"name": "Murra_T#9679",
+				"avatar": "Murra_T_9679.png"
+			},
+			{
+				"name": "𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝑒𝓇 𝑅𝑒𝓃#8302",
+				"avatar": "Commander Ren_8302.png"
+			}
+		],
+		"timestamp": "01/05/2022"
 	}
 ]
